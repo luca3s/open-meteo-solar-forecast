@@ -78,9 +78,11 @@ if __name__ == "__main__":
 | --------- | ---------- | ----------- |
 | `base_url` | `str` | The base URL of the API (optional) |
 | `api_key` | `str` | Your API key (optional) |
+| `weather_model` | `str` | The Open Meteo Weather Model (optional) |
 | `declination` | `int` | The tilt of the solar panels (required) |
 | `azimuth` | `int` | The direction the solar panels are facing (required) |
 | `dc_kwp` | `float` | The size of the solar panels in kWp (required) |
+
 
 ## Contributing
 
